@@ -1,7 +1,7 @@
 //                        Binary Search 					//4/10/2022
 
 //find index value using index value 
-/*
+
 #include<iostream>
 using namespace std;
 int binarySearch(int arr[],int size,int key)
@@ -48,7 +48,7 @@ int main()
 	return 0;
 	
 }
-*/
+
 
 /*
 #include<iostream>
@@ -248,37 +248,37 @@ int main()
 
 
 //find pivot in an array						7/10/2022
-#include<iostream>
-using namespace std;
-int main()
-{
-	int getPivot(int arr[],int n);
-//	int arr[10]={2,5,7,9,10,25,32,5,3,4};
-	int arr[5]={3,8,10,17,1};
-	cout<<"pivot value of index is : "<<getPivot(arr,10)<<endl;
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+// 	int getPivot(int arr[],int n);
+// //	int arr[10]={2,5,7,9,10,25,32,5,3,4};
+// 	int arr[5]={3,8,10,17,1};
+// 	cout<<"pivot value of index is : "<<getPivot(arr,10)<<endl;
 	
-	return 0;
-}
-int getPivot(int arr[],int n)
-{
-	int	start=0;
-	int end=n-1;
-	int mid=(start+(end-start)/2);
+// 	return 0;
+// }
+// int getPivot(int arr[],int n)
+// {
+// 	int	start=0;
+// 	int end=n-1;
+// 	int mid=(start+(end-start)/2);
 	
-	while(start<end)
-	{
-		if(arr[mid]>=arr[0])
-		{
-			start=mid+1;
-		}
-		else
-		{
-			end=mid;
-		}
-		mid=(start+(end-start)/2);
-	}
-	return start;
-}
+// 	while(start<end)
+// 	{
+// 		if(arr[mid]>=arr[0])
+// 		{
+// 			start=mid+1;
+// 		}
+// 		else
+// 		{
+// 			end=mid;
+// 		}
+// 		mid=(start+(end-start)/2);
+// 	}
+// 	return start;
+// }
 
 
 
