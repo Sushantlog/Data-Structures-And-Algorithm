@@ -8,7 +8,7 @@ int main(){
 
     // cout << (a<=b) << endl;
 
-    cout << !(a==5);
+    // cout << !(a==5);
     
 
     
@@ -23,10 +23,10 @@ int main(){
     // cout << a%b << endl;
     // cout << a/b << endl;
     
-    // double d = 5.7;
+    double d = 5.7;
 
-    // int x = (int)d ;
-    // cout << "value of x is " << x << endl;
+    int x = (int)d ;
+    cout << "value of x is " << x << endl;
     
     // char ch = 97;
     // cout << ch << endl;
