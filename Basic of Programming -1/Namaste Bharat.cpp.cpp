@@ -15,8 +15,21 @@ int main()
     
 // }
 
+// int main(){
+//     int a=5;
+//     int c=(++a)*(++a);
+//     cout<<c;
+// }
+// ==========================================
+
+// type cating 
+// Explict
 int main(){
-    int a=5;
-    int c=(++a)*(++a);
-    cout<<c;
+    int d=5.7;
+
+    int x=(int)d;
+    cout<<"value of x is : "<<x<<endl;
+
+
+
 }

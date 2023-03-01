@@ -124,10 +124,10 @@ using namespace std;
 //     cin>>n;
 
 //     for(int i=0; i<n; i++){
-//         for(int space=0; space<n-i-1; i++){
+//         for(int space=0; space<n-i-1; i=i+1){
 //             cout<<" ";
 //         }
-//         for(int j=0; j<2*i+1; j++){
+//         for(int j=0; j<2*i+1; j=j+1){
 //             if(j==0 || j==2*i){
 //                 cout<<"*";
 //             }
@@ -135,32 +135,35 @@ using namespace std;
 //                 cout<<" ";
 //             }
 //         }
-        
+// 		cout<<endl;
 //     }
-//     cout<<endl;
+    
 // }
 
-int main(){
-    int n;
-    cin>>n;
+// int main(){
+//     int n;
+//     cin>>n;
 
-    for(int row=0; row<n; row=row+1) {
-		//spaces
-		for(int col=0;col<n-row-1; col = col + 1) {
-			cout << " ";
-		}
+//     for(int row=0; row<n; row=row+1) {
+// 		//spaces
+// 		for(int col=0;col<n-row-1; col = col + 1) {
+// 			cout << " ";
+// 		}
 
-		//stars
-		for(int col=0; col<2*row+1; col = col + 1) {
-			//if first character or if last character
-			if(col == 0 || col == 2*row) {
-				//first character or last character
-				cout << "*";
-			}
-			else{
-				cout << " ";
-			}
-		}
-        cout<<endl;
-	}
-}
+// 		//stars
+// 		for(int col=0; col<2*row+1; col = col + 1) {
+// 			//if first character or if last character
+// 			if(col == 0 || col == 2*row) {
+// 				//first character or last character
+// 				cout << "*";
+// 			}
+// 			else{
+// 				cout << " ";
+// 			}
+// 		}
+//         cout<<endl;
+// 	}
+// }
+
+
+// ============================================
