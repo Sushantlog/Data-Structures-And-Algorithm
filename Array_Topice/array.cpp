@@ -184,8 +184,73 @@ using namespace std;
 //     }
 
 // }
-       
 
+// ======================================================================================
+// user input from user in linear search 
+
+// bool find(int arr[],int n,int key){
+//     for(int i=0; i<n; i++){
+//         if(arr[i]==key){
+//             return true;
+//         }
+        
+//     }
+//     return false;
+// }
+
+
+// int main(){
+//     int n;
+//     cout<<"enter size of array : "<<endl;
+//     cin>>n;
+
+//     int arr[100];
+//     cout<<"enter the array element you want to inter : "<<endl;
+//     for(int i=0; i<n; i++)
+//     {
+//         cin>>arr[i];
+//     }
+
+//     int key;
+//     cout<<"enter kay to search : "<<endl;
+//     cin>>key;
+
+//     if(find(arr,n,key)){
+//         cout<<"key is found !";
+//     }
+//     else{
+//         cout<<"key is not found !";
+//     }
+//     return 0;
+// }
+// Output =
+
+// enter size of array : 
+// 5
+// enter the array element you want to inter : 
+// 10
+// 20
+// 63
+// 40 
+// 25
+// enter kay to search : 
+// 40
+// key is found !
+
+
+// enter size of array : 
+// 5
+// enter the array element you want to inter : 
+// 25
+// 63
+// 56
+// 63
+// 85
+// enter kay to search : 
+// 6
+// key is not found !
+       
+// ======================================================================================
 // 2
 // bool find(int arr[],int size,int key){
 //     for(int i=0;i<size;i++){
@@ -285,6 +350,7 @@ using namespace std;
 //     if(arr[i]>maxi){
 //         maxi=arr[i];
 //     }
+
 //    } 
 //    cout<<"Maximum number is : "<<maxi<<" ";
 //    return 0;

@@ -1,13 +1,11 @@
 #include<iostream>
 using namespace std;
-/*
+
 int main()
 {
     cout<<"Namaste Bharat "<<endl;
     
 }
-
-*/
  
 // int main(){
 //     int a= 6;
@@ -24,12 +22,12 @@ int main()
 
 // type cating 
 // Explict
-int main(){
-    int d=5.7;
+// int main(){
+//     int d=5.7;
 
-    int x=(int)d;
-    cout<<"value of x is : "<<x<<endl;
+//     int x=(int)d;
+//     cout<<"value of x is : "<<x<<endl;
 
 
 
-}
+// }
