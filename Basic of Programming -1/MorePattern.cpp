@@ -624,3 +624,64 @@ using namespace std;
 // *   
 
 // =====================================================================
+
+// int main(){
+//     int n;
+//     cin>>n;
+
+//     for(int i=0; i<n; i++){
+//         int start =i+1;
+//         for(int j=0; j<i+1; j++){
+//             cout<<start;
+//             start++;
+//         }
+//         cout<<endl;
+//     }
+// }
+
+// Output = 5
+// 1    
+// 23   
+// 345  
+// 4567 
+// 56789
+
+// =======================================
+//Numeric Full Pyramid
+// n = 5  
+//     1    
+//    232   
+//   34543  
+//  4567654 
+// 567898765
+
+// int main(){
+//     int n;
+//     cin>>n;
+
+//     for(int i=0; i<n; i++){
+//         //print space
+//         for(int space=0; space<n-i-1; space++){
+//             cout<<"  ";
+//         }
+//         //print number 
+//         for(int j=0; j<i+1; j++){
+//             cout<<i+j+1<<" ";
+//         }
+//         //print reverse
+//         int start = 2*i;
+//         for(int j=0; j<i; j++){
+//             cout<<start<<" ";
+//             start--;
+//         }
+//         cout<<endl;
+//     }
+// }
+
+// Output = 4
+//       1       
+//     2 3 2     
+//   3 4 5 4 3   
+// 4 5 6 7 6 5 4 
+
+// ====================================================================
