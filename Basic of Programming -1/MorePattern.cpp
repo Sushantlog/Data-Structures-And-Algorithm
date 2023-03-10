@@ -685,3 +685,54 @@ using namespace std;
 // 4 5 6 7 6 5 4 
 
 // ====================================================================
+
+//Numeric Hollow Pyramid
+
+//     1    
+//    1 2   
+//   1   3  
+//  1     4 
+// 1 2 3 4 5
+
+// int main(){
+//     int n;
+//     cin>>n;
+
+//     for(int i=0; i<n; i++){
+//         for(int space=0; space<n-i-1; space++){
+//             cout<<" ";
+//         }
+//         int start=1;
+//         for(int j=0; j<2*i+1; j++){
+//             //first row and last row
+//             if(i==0 || i==n-1){
+//                 if(j%2==0){
+//                     cout<<start;
+//                     start++;
+//                 }else{
+//                     cout<<" ";
+//                 }
+//             }
+//             else{
+//                 //first column and last column
+//                 if(j==0){
+//                     cout<<1;
+//                 }else if(j==2*i+1-1){       //2*i also take 
+//                     cout<<i+1;
+//                 }else{
+//                     cout<<" ";
+//                 }
+//             }
+//         }
+//         cout<<endl;
+//     }
+// }
+
+// Output = 5
+//     1    
+//    1 2   
+//   1   3  
+//  1     4 
+// 1 2 3 4 5
+
+// =============================================================================
