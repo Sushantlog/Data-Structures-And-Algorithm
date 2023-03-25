@@ -19,14 +19,14 @@ using namespace std;
 
 // int main(){
 //      char ch[100];
-//      cin>>ch;
+//      cin>>ch;                //can not rade tab'\t' and enter, \n, \0 
 //     //not read any space,tab
 //      cout<<"Character array is : "<<ch;  
 // }
 
 // Output = 
 // Sushant
-// Character array is : Sushant
+// Character array is : Sushant 
 
 // Sushant Balu Patil
 // Character array is : Sushant
@@ -126,7 +126,8 @@ using namespace std;
 // int main()
 // {
 //      char name[100];
-//      cin>>name;
+//      // cin>>name;
+//      cin.getline(name,50);  //to space and take full size of char array
 
 //      cout<<"Length is : "<<getLength(name)<<endl;
 //     // cout<<"Length is : "<<strlen(name)<<endl;
@@ -138,6 +139,9 @@ using namespace std;
 // Aaba
 // Length is : 4
 // Length is : 4
+
+// Sushant Balu Patil
+// Length is : 18
 // ==================================================
 
 // Reverse of string 
@@ -246,3 +250,43 @@ using namespace std;
 // palindrome check : 1
 
 // ====================================================================
+
+bool checkPalindrome(char word[]){
+     int i=0;
+     int n=strlen(word);
+     int j=n-1;
+
+     while(i<=j){
+          if(word[i]!=word[j]){
+               return false;
+          }else{
+               i++;
+               j--;
+          }
+     }
+     return true;
+}
+
+int main(){
+     char sentence[100];
+     cin.getline(sentence,50);
+
+     int check=checkPalindrome(sentence);
+     cout<<"Palindrome check : "<<check<<endl;
+     if(check==1){
+          cout<<sentence<<" is Palindrome "<<endl;
+     }
+     else{
+          cout<<sentence<<" is not palindrome "<<endl;
+     }
+     return 0;
+}
+
+// Output = 
+// anna
+// Palindrome check : 1
+// anna is Palindrome  
+
+// Sushant
+// Palindrome check : 0      
+// Sushant is not palindrome 
