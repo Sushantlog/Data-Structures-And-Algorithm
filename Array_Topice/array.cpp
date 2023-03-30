@@ -434,28 +434,28 @@ using namespace std;
 
 // ==============================================================================
 
-// int main(){
-//     int arr[8]={10,20,30,40,50,60,70,80};
-//     int size=8;
+int main(){
+    int arr[8]={10,20,30,40,50,60,70,80};
+    int size=8;
 
-//     int start=0;
-//     int end=size-1;
+    int start=0;
+    int end=size-1;
 
-//     while(start<=end){
-//         int temp;
-//         //using temp variabal
-//         temp=arr[start];
-//         arr[start]=arr[end];
-//         arr[end]=temp;
+    while(start<=end){
+        int temp;
+        //using temp variabal
+        temp=arr[start];
+        arr[start]=arr[end];
+        arr[end]=temp;
 
-//         start++;
-//         end--;
-//     }
-//     for(int i=0;i<size;i++){
-//         cout<<arr[i]<<" ";
-//     }
-//     return 0;
-// }
+        start++;
+        end--;
+    }
+    for(int i=0;i<size;i++){
+        cout<<arr[i]<<" ";
+    }
+    return 0;
+}
 
 // Output = 80 70 60 50 40 30 20 10 
 // ==========================================================================
