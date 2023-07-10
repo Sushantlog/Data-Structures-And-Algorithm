@@ -39,25 +39,25 @@ using namespace std;
 
 // take 5 element input in an array and print their 
 
-// int main(){
-//     int arr[100];
-//     int n;
+int main(){
+    int arr[100];
+    int n;
 
-//     cout<<"How many array element you want to insert : "<<endl;
-//     cin>>n;
+    cout<<"How many array element you want to insert : "<<endl;
+    cin>>n;
 
-//     cout<<"Enter the array element : "<<endl;
-//     for(int i=0;i<n;i++){
-//         cin>>arr[i];
-//     }
+    cout<<"Enter the array element : "<<endl;
+    for(int i=0;i<n;i++){
+        cin>>arr[i];
+    }
 
-//     cout<<"Array value present : "<<endl;
-//     for(int i=0;i<n;i++){
-//         cout<<arr[i]<<" ";
-//     }
+    cout<<"Array value present : "<<endl;
+    for(int i=0;i<n;i++){
+        cout<<arr[i]<<" ";
+    }
 
-//     return 0;
-// }
+    return 0;
+}
 
 // Output = 
 // How many array element you want to insert : 
